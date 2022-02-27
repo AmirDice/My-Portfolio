@@ -792,7 +792,7 @@ body.light-theme {
 }
 
 /* For medium devices */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 414px) {
   .nav__menu {
     width: 328px;
     left: 0;
