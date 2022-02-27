@@ -6,7 +6,6 @@ function scrollHeader(){
 }
 window.addEventListener('scroll', scrollHeader)
 
-/*=============== SERVICES MODAL ===============*/
 
 
 /*=============== MIXITUP FILTER PORTFOLIO ===============*/
@@ -28,9 +27,6 @@ function activeWork(){
 }
 
 linkWork.forEach(L=> L.addEventListener('click', activeWork))
-
-
-/*=============== SWIPER TESTIMONIAL ===============*/
 
 
 /*=============== SCROLL SECTIONS ACTIVE LINK ===============*/
