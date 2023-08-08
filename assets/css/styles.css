@@ -173,7 +173,8 @@ body.light-theme {
 
 .light-theme .skills__content,
 .light-theme .work__card,
-.light-theme .contact__card {
+.light-theme .contact__card,
+.light-theme .cert__card {
   box-shadow: 0 2px 16px hsla(var(--second-hue), 48%, 8%, 0.1);
 }
 
@@ -496,7 +497,6 @@ body.light-theme {
   display: flex;
   justify-content: center;
   column-gap: 2.5rem;
-  column-gap: 2.5rem;
 }
 
 .skills__group {
@@ -554,12 +554,13 @@ body.light-theme {
   border-radius: 1rem;
 }
 
+
 .work__img {
   border-radius: 1rem;
   margin-bottom: 0.75rem;
 }
 
-.work__titke {
+.work__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
   margin-bottom: 0.25rem;
@@ -587,6 +588,66 @@ body.light-theme {
 .active-work {
   background-color: var(--first-color);
   color: var(--body-color);
+}
+
+
+
+
+/*=============== CERT ===============*/
+.cert__container {
+  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(100px, 1fr));
+  gap: 20px;
+}
+
+
+.cert__item {
+  cursor: pointer;
+  color: var(--title-color);
+  padding: 10px;
+  font-weight: var(--font-medium);
+  border-radius: 0.5rem;
+  text-align: center;
+}
+
+.cert__card {
+  background-color: var(--container-color);
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.cert__container {
+  padding-top: 1rem;
+}
+
+.cert__img {
+  border-radius: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.cert__title {
+  font-size: var(--normal-font-size);
+  font-weight: var(--font-medium);
+  margin-bottom: 0.25rem;
+}
+
+.cert__button {
+  width: max-content;
+  color: var(--first-color);
+  font-size: var(--small-font-size);
+  display: flex;
+  align-items: center;
+  column-gap: 0.25rem;
+}
+
+.cert__button:hover .work__icon {
+  transform: translateX(0.25rem);
+}
+
+.cert__icon {
+  font-size: 1rem;
+  transition: 0.4s;
 }
 
 /*=============== CONTACT ===============*/
